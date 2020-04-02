@@ -34,7 +34,7 @@ export default class ListCategory extends Component {
         return item
     })
     this.setState({listData}, () => {
-        setTimeout(() => {this.setState({isLoading: false, isFetching: false, test: 1})},500)
+        setTimeout(() => {this.setState({isLoading: false, isFetching: false, test: 1})},300)
     })
   }
 

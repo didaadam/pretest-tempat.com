@@ -39,7 +39,7 @@ export default class HomePage extends Component {
         return item
     })
     this.setState({listData}, () => {
-        setTimeout(() => {this.setState({isLoading: false, isFetching: false, listData2: Array.ListData2.sort((a,b) => b.id - a.id), test: 1})},500)
+        setTimeout(() => {this.setState({isLoading: false, isFetching: false, listData2: Array.ListData2.sort((a,b) => b.id - a.id), test: 1})},300)
     })
   }
 
