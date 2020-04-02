@@ -27,9 +27,7 @@ const MainNavigator = createStackNavigator({
     headerBackground: () => (<View style={headerBgStyle}/>),
     headerTintColor: 'white',
     headerBackImage: () => (
-      <TouchableOpacity style={{ paddingLeft: 10 }} activeOpacity={.9}>
-        <Ionicons name='ios-arrow-back' size={25} color={'#fff'} />
-      </TouchableOpacity>
+        <Ionicons name='ios-arrow-back' size={25} color={'#fff'} style={{marginBottom: -3, marginLeft: 10}} />
     )
   }
 });

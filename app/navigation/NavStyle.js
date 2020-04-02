@@ -8,7 +8,7 @@ export const headerStyle = {
 
 export const headerTitleStyle = {
     flex: 1,
-    textAlign: 'center',
+    // textAlign: 'center',
     marginLeft: -15,
     fontWeight: '600',
     color: '#fff',
